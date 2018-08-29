@@ -58,6 +58,8 @@ The default minimum-time-between-keypresses of 1000000 microseconds worked for m
 
 "./keybounce-detect 50000"
 
+Once you've determined the time on the bounce, you can select an appropriate setting to have the current session of Xorg filter out the keybouncing via "xkbset bouncekeys <milliseconds>".
+
 ## Caveats
 
 It's a terminal application, so it can't look for modifier keys.  Could be possible to make an X11 version.
